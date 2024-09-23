@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlFileSource">
+    <option name="sources">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/database-tool/1f31f805-82ef-4072-9ec9-0b31e1c7500e/console.sql" value="1f31f805-82ef-4072-9ec9-0b31e1c7500e" />
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/database-tool/2361a9a1-9003-469f-963f-1ff056d3965e/console.sql" value="2361a9a1-9003-469f-963f-1ff056d3965e" />
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/database-tool/b688a43a-9de9-4ca0-ae89-ecb14cd06e78/console.sql" value="b688a43a-9de9-4ca0-ae89-ecb14cd06e78" />
+        <entry key="$PROJECT_DIR$/src/main/resources/db.changelog/migrations/data.sql" value="2361a9a1-9003-469f-963f-1ff056d3965e" />
+        <entry key="$PROJECT_DIR$/src/main/resources/db.changelog/migrations/schema.sql" value="b688a43a-9de9-4ca0-ae89-ecb14cd06e78" />
+        <entry key="$PROJECT_DIR$/src/main/resources/db/changelog/migrations/data.sql" value="2361a9a1-9003-469f-963f-1ff056d3965e" />
+        <entry key="$PROJECT_DIR$/src/main/resources/db/changelog/migrations/schema.sql" value="b688a43a-9de9-4ca0-ae89-ecb14cd06e78" />
+      </map>
+    </option>
+  </component>
+</project>
