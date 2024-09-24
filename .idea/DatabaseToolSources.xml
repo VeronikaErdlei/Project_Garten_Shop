@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DatabaseToolSources">
-    <data-source name="localhost" uuid="b688a43a-9de9-4ca0-ae89-ecb14cd06e78" type="MYSQL">
+    <data-source name="localhost1" uuid="2361a9a1-9003-469f-963f-1ff056d3965e" type="MYSQL">
       <base-info connect-type="DB_DEFAULT" product="MySQL" version="8.0.39" major-version="8" minor-version="0" jdbc-name="MySQL Connector/J" jdbc-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" jdbc-major-version="8" jdbc-minor-version="2" />
       <user-name>root</user-name>
       <schema-mapping>
@@ -22,6 +22,9 @@
           </node>
         </introspection-scope>
       </choose-schema-mapping>
+      <use-database kind="schema">
+        <name qname="garden_shop" operator="@" />
+      </use-database>
       <url>jdbc:mysql://localhost:3306/garden_shop</url>
       <remarks />
       <vm-options />
@@ -130,7 +133,7 @@
         <sslMode>REQUIRE</sslMode>
       </ssl-config>
     </data-source>
-    <data-source name="localhost1" uuid="2361a9a1-9003-469f-963f-1ff056d3965e" type="MYSQL">
+    <data-source name="localhost" uuid="b688a43a-9de9-4ca0-ae89-ecb14cd06e78" type="MYSQL">
       <base-info connect-type="DB_DEFAULT" product="MySQL" version="8.0.39" major-version="8" minor-version="0" jdbc-name="MySQL Connector/J" jdbc-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" jdbc-major-version="8" jdbc-minor-version="2" />
       <user-name>root</user-name>
       <schema-mapping>
@@ -151,9 +154,6 @@
           </node>
         </introspection-scope>
       </choose-schema-mapping>
-      <use-database kind="schema">
-        <name qname="garden_shop" operator="@" />
-      </use-database>
       <url>jdbc:mysql://localhost:3306/garden_shop</url>
       <remarks />
       <vm-options />

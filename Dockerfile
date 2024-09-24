@@ -6,4 +6,4 @@ COPY target/Project_Garten_Shop-0.0.1-SNAPSHOT.jar /app/Project_Garten_Shop-0.0.
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "/app/Project_Garten_Shop-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/ffapp/Project_Garten_Shop-0.0.1-SNAPSHOT.jar"]
